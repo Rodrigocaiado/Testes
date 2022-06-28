@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela do Brasileirão</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 10px;
+        }
+        
+        main{
+            background-color: white;
+            min-width: 300px;
+            max-width: 800px;            
+            margin: auto;            
+        }
+
+        header{
+            background-color: white;                 
+            border-radius: 10px 10px 0px 0px; 
+            min-width: 300px;
+            max-width: 800px;  
+            margin: auto;    
+        }        
+
+        header h1{
+            text-align: center;
+            margin-top: 40px;
+        }
+        
+        table{          
+            margin: auto;
+            min-width: 300px;
+            max-width: 800px;
+            height: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            background-color: lightgray;
+            border: 1px solid black
+        }        
+
+        thead th{
+            background-color: white;
+        }
+
+        th, td{            
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }      
+        
+        .colclassificaçao{
+            width: 400px;
+        }
+
+        .time{
+            text-align: left;
+        }
+
+        tr:nth-child(odd){
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tabela</h1>
+    </header>
+    <main>
+        <table>
+            <caption>Brasileirão série A</caption>
+            <thead>
+                <tr>
+                    <th class="colclassificaçao" scope="row">Classificação</th>
+                    <th class="colclassificaçao" scope="col">P</th>
+                    <th class="colclassificaçao" scope="col">J</th>
+                    <th class="colclassificaçao" scope="col">V</th>
+                    <th class="colclassificaçao" scope="col">E</th>
+                    <th class="colclassificaçao" scope="col">D</th>
+                    <th class="colclassificaçao" scope="col">GP</th>
+                    <th class="colclassificaçao" scope="col">GC</th>
+                    <th class="colclassificaçao" scope="col">SG</th>
+                    <th class="colclassificaçao" scope="col">%</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="time" scope="row">1 - Palmeiras</th>
+                    <td>29</td>
+                    <td>14</td>
+                    <td>8</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td>27</td>
+                    <td>10</td>
+                    <td>17</td>
+                    <td>69</td>
+                </tr>  
+                <tr>
+                    <th class="time" scope="row">2 - Corinthians</th>
+                    <td>26</td>
+                    <td>14</td>
+                    <td>7</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>17</td>
+                    <td>10</td>
+                    <td>7</td>
+                    <td>61.9</td>
+                </tr>
+                <tr>
+                    <th class="time" scope="row">3 - Atlhletico-PR</th>
+                    <td>24</td>
+                    <td>14</td>
+                    <td>7</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>17</td>
+                    <td>15</td>
+                    <td>2</td>
+                    <td>57.1</td>
+                </tr>
+                <tr>
+                    <th class="time" scope="row">4 - Internacional</th>
+                    <td>24</td>
+                    <td>14</td>
+                    <td>6</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>21</td>
+                    <td>14</td>
+                    <td>7</td>
+                    <td>57.1</td>
+                </tr>
+                <tr>
+                    <th class="time" scope="row">5 - Atlético-MG</th>
+                    <td>24</td>
+                    <td>14</td>
+                    <td>6</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>22</td>
+                    <td>16</td>
+                    <td>6</td>
+                    <td>57.1</td>
+                </tr>
+                <tr>
+                    <th class="time" scope="row">6 - Fluminense</th>
+                    <td>21</td>
+                    <td>14</td>
+                    <td>6</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>16</td>
+                    <td>14</td>
+                    <td>2</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <th class="time" scope="row">7 - Santos</th>
+                    <td>19</td>
+                    <td>14</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>3</td>
+                    <td>18</td>
+                    <td>15</td>
+                    <td>3</td>
+                    <td>45.2</td>
+                </tr>
+                <tr>
+                    <th class="time" scope="row">8 - São Paulo</th>
+                    <td>19</td>
+                    <td>14</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>3</td>
+                    <td>18</td>
+                    <td>15</td>
+                    <td>3</td>
+                    <td>45.2</td>
+                </tr>
+                <tr>
+                    <th class="time" scope="row">9 - Flamengo</th>
+                    <td>18</td>
+                    <td>14</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>6</td>
+                    <td>16</td>
+                    <td>19</td>
+                    <td>-3</td>
+                    <td>42.9</td>
+                </tr>
+                <tr>
+                    <th class="time" scope="row">10 - Botafogo</th>
+                    <td>18</td>
+                    <td>14</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>6</td>
+                    <td>16</td>
+                    <td>19</td>
+                    <td>-3</td>
+                    <td>42.9</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

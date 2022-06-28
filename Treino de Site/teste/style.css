@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(fonte/JAi_____.TTF) format('truetype');
+}
+
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;   
+    height: 100vh;
+    
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    text-indent: 30px;  
+    width: 80vw;
+   border-radius: 0px 0px 5px 5px;
+}
+
+main > p{
+    text-align: justify;
+    margin: 30px;
+    padding: 10px;
+    line-height: 1.3em;
+}
+
+header{
+    background-image:linear-gradient(to bottom,#F21D2F,#D92D07,#F2B705);
+    min-height: 60px;    
+}
+
+header > h1{
+    font-family: titulo;
+    font-size: 3em;
+    text-align: center;
+    padding: 30px;    
+}
+
+header > p{
+    margin: auto;
+    padding: 30px;
+    max-width: 550px;
+}
+
+nav{
+    background-color: #F2B705;
+    min-height: 30px;    
+}
+
+nav a{
+    text-decoration: none;
+    color: black;    
+    padding: 8px;
+    margin-left: 15px;    
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+h2{    
+    font-size: 2.5em;
+    font-weight: normal;
+    padding: 40px;
+}
+
+section{
+    height: 70vh;   
+    margin: 30px;
+}
+
+section#dragonballz{
+    background-image: url(imagens/dragonballz1.jpg);
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+}
+
+section#dragonballgt{
+    background-image: url(imagens/dragonballgt1.jpg);
+    background-size: contain;    
+    background-repeat: repeat-x;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+section#dragonballsuper{
+    background-image: url(imagens/dragonballsuper1.jpg);    
+    background-size: auto;
+    background-repeat: repeat-x;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+div.video{
+    position: relative;
+    background-color: black;
+    padding: 20px;
+    padding-bottom: 50%; 
+    margin: 30px;
+    
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;   
+    width: 90%;
+    height: 90%;   
+    margin: -18px px 0px 0px;
+}
+
+footer{
+    background-color: lightgray;
+    padding: 6px;
+}
+
+footer > p{
+    text-align: center;
+}
+
+
